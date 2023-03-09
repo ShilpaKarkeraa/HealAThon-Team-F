@@ -23,10 +23,10 @@ The different ML models used are:
 + Random Forest Classifier
 - XGBoost
 
-Each of these models were tuned using GridSearchCV to obtain the optimal hyperparameter values in order to develop models of highest accuracy.
+Each of these models was tuned using GridSearchCV to obtain the optimal hyperparameter values to develop models of the highest accuracy.
 
 ## Social Impact of our Product
-Kidney disease is a serious and growing health issue that affects millions of people around the world. Through our app, it is possible to raise awareness among the population helping in early detection and intervention. Subsequently, improving quality of life of individuals and reducing the burden on our healthcare system.
+Kidney disease is a serious and growing health issue that affects millions of people around the world. Through our app, it is possible to raise awareness among the population helping in early detection and intervention. Subsequently, improving the quality of life of individuals and reducing the burden on our healthcare system.
 
 
 
