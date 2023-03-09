@@ -14,6 +14,7 @@ The market for a kidney disease detection app could potentially be significant, 
 
 ## Approach
 In our exercise, we used Supervised learning to develop our Machine Learning Model. Ours is a classification problem, so we have focused on tree-based, ensemble-based models and probabilistic models to draw insights from the data. 
+
 First, the dataset was cleaned by handling missing values, correcting formats and inconsistencies, removing outliers, and transforming categorical data. Second, Exploratory Data Analysis was performed to understand the correlation between various features and their influence on the dependent variable. Then the data was split into train and test sets for training and testing our machine learning models respectively.
 
 The different ML models used are:
@@ -23,7 +24,7 @@ The different ML models used are:
 + Random Forest Classifier
 - XGBoost
 
-Each of these models was tuned using GridSearchCV to obtain the optimal hyperparameter values to develop models of the highest accuracy.
+Each of these models was tuned using GridSearchCV to obtain the optimal hyperparameter values to develop models of the highest accuracy. Finally, using k-fold cross- validation we compared the models to finalise our base model for our application.
 
 ## Social Impact of our Product
 Kidney disease is a serious and growing health issue that affects millions of people around the world. Through our app, it is possible to raise awareness among the population helping in early detection and intervention. Subsequently, improving the quality of life of individuals and reducing the burden on our healthcare system.
