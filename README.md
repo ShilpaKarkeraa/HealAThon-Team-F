@@ -1,32 +1,14 @@
-# HealAThon-Team-F
-
-<p style = "font-size : 50px;
-text-align : center;
-background-color : #AE6C6C;
-color : #12344c ;
-font-family : 'Georgia';
-border-radius: 20px 20px;">
-<strong>
-Early Chronic Kidney Disease Prediction <br>
-(CKD)
-</strong>
-</p>
-
+<div align="center">
+    <h1 style="font-size:40px;">HealAThon-Team-F</h1>
+    <h2 style="font-size:40px;">Early Chronic Kidney Disease Prediction (CKD)</h2>
+ </div>
+  
 <img width="851" alt="project ML" src="https://user-images.githubusercontent.com/66158938/223807535-f1ec58ac-38a0-4508-9991-5d1ecfe34bc6.png">
 
-
 <br>
 <br>
-
-
-<p style = "font-size : 30px;
-text-align : center; 
-background-color : #AE9C;
-color : #123 ;
-font-family : 'Georgia';
-border-radius: 20px 20px;">
-Chronic Kidney Disease(CKD)
-</p>
+ 
+### Chronic Kidney Disease(CKD)
 
 Chronic kidney disease is a condition characterized by progressive loss of kidney function over time. It is a silent disease, as most sufferers have no symptoms. If left untreated, CKD can progress to kidney failure and early cardiovascular disease. Early intervention can facilitate disease prevention, assist with the early planning of renal replacement therapy, and offer potential clinical and economic benefits to patients and health systems. Through supervised machine learning techniques, it is possible to predict early indicators of CKD.
 
@@ -35,14 +17,9 @@ Chronic kidney disease is a condition characterized by progressive loss of kidne
 <br>
 <br>
 
-<p style = "font-size : 30px;
-text-align : center; 
-background-color : #AE9C;
-color : #123 ;
-font-family : 'Georgia';
-border-radius: 20px 20px;">
-Objective
-</p>
+<div align="center">
+    <h2 style="font-size:40px;">Objective (CKD)</h2>
+</div>
 
 <br>
 
@@ -60,14 +37,9 @@ Additionally, it will also have a patient interface which will help patients kee
 <br>
 <br>
 
-<p style = "font-size : 30px;
-text-align : center; 
-background-color : #AE9C;
-color : #123 ;
-font-family : 'Georgia';
-border-radius: 20px 20px;">
-Market
-</p>
+<div align="center">
+    <h2 style="font-size:40px;">Market (CKD)</h2>
+</div>
 
 The market for a kidney disease detection app could potentially be significant, given the prevalence of kidney disease. <br>
 An estimated **1 in 10** people worldwide have chronic kidney disease. Hence, our application will be helpful for both healthcare professionals and patients. <br>
@@ -79,14 +51,9 @@ An estimated **1 in 10** people worldwide have chronic kidney disease. Hence, ou
 <br>
 <br>
 
-<p style = "font-size : 30px;
-text-align : center; 
-background-color : #AE9C;
-color : #123 ;
-font-family : 'Georgia';
-border-radius: 20px 20px;">
-Approach
-</p>
+<div align="center">
+    <h2 style="font-size:40px;">Approach (CKD)</h2>
+</div>
 
 In our exercise, we used Supervised learning to develop our Machine Learning Model. <br>
 Ours is a classification problem, so we have focused on tree-based, ensemble-based models and probabilistic models to draw insights from the data.
@@ -130,14 +97,10 @@ Finally, using k-fold cross- validation we compared the models to finalise our b
 <br>
 <br>
 
-<p style = "font-size : 30px;
-text-align : center; 
-background-color : #AE9C;
-color : #123 ;
-font-family : 'Georgia';
-border-radius: 20px 20px;">
-Social Impact of our Product
-</p>
+<div align="center">
+    <h2 style="font-size:40px;">Social Impact of our Product (CKD)</h2>
+</div>
+
 
 Kidney disease is a serious and growing health issue that affects millions of people around the world. <br>
 Through our app, it is possible to raise awareness among the population helping in early detection and intervention.<br>
