@@ -118,8 +118,7 @@ The demo web app is created using flask.
 
 > - To run the demo:
 
-<video src="./imgs/Demo.mp4" controls="controls" style="max-width: 730px;">
-</video>
+![gif](imgs/Demo.gif)
 
 <br>
 
