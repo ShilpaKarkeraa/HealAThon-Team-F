@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<title>Kidney Disease Diagnosis</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<style>
+				form {
+						max-width: 800px;
+						margin: 0 auto;
+				}
+				label {
+						display: block;
+						margin-bottom: 5px;
+				}
+				input[type="text"] {
+						width: 100%;
+						padding: 10px;
+						border-radius: 5px;
+						border: 1px solid #ccc;
+						margin-bottom: 20px;
+				}
+				button {
+						padding: 10px;
+						background-color: #4CAF50;
+						color: white;
+						border-radius: 5px;
+						border: none;
+						cursor: pointer;
+				}
+				button:hover {
+						background-color: #3e8e41;
+				}
+				#result {
+						margin-top: 20px;
+						padding: 20px;
+						border-radius: 5px;
+						border: 1px solid #ccc;
+				}
+		</style>
+</head>
+<body>
+		<form action="/" method="POST">
+				<label for="age">Age:</label>
+				<input type="number" id="age" name="age" step="0.01">
+				
+				<label for="blood_pressure">Blood Pressure:</label>
+				<input type="number" id="blood_pressure" name="blood_pressure" step="0.01">
+
+				<label for="specific_gravity">Specific Gravity:</label>
+				<input type="number" id="specific_gravity" name="specific_gravity" step="0.01">
+
+				<label for="albumin">Albumin:</label>
+				<input type="number" id="albumin" name="albumin" step="0.01">
+
+				<label for="sugar">Sugar:</label>
+				<input type="number" id="sugar" name="sugar" step="0.01">
+
+				<label for="red_blood_cells">Red Blood Cells:</label>
+				<select id="red_blood_cells" name="red_blood_cells">
+						<option value="0.0">Normal</option>
+						<option value="1.0">Abnormal</option>
+				</select>
+
+				
+				<label for="pus_cell">Pus Cell:</label>
+				<select id="pus_cell" name="pus_cell">
+					<option value="0.0">Normal</option>
+					<option value="1.0">Abnormal</option>
+				</select>
+
+				<label for="pus_cell_clumps">Pus Cell Clumps:</label>
+				<select id="pus_cell_clumps" name="pus_cell_clumps">
+					<option value="0.0">Not present</option>
+					<option value="1.0">Present</option>
+				</select>
+
+				<label for="bacteria">Bacteria:</label>
+				<select id="bacteria" name="bacteria">
+					<option value="0.0">Not present</option>
+					<option value="1.0">Present</option>
+				</select>
+
+				<label for="blood_glucose_random">Blood Glucose Random:</label>
+				<input type="number" id="blood_glucose_random" name="blood_glucose_random" step="0.01">
+
+				<label for="blood_urea">Blood Urea:</label>
+				<input type="number" id="blood_urea" name="blood_urea" step="0.01">
+
+				<label for="serum_creatinine">Serum Creatinine:</label>
+				<input type="number" id="serum_creatinine" name="serum_creatinine" step="0.01">
+
+				<label for="sodium">Sodium:</label>
+				<input type="number" id="sodium" name="sodium" step="0.01">
+
+				<label for="potassium">Potassium:</label>
+				<input type="number" id="potassium" name="potassium" step="0.01">
+
+				<label for="hemoglobin">Hemoglobin:</label>
+				<input type="number" id="hemoglobin" name="hemoglobin" step="0.01">
+
+				<label for="packed_cell_volume">Packed Cell Volume:</label>
+				<input type="number" id="packed_cell_volume" name="packed_cell_volume" step="0.01">
+
+				<label for="white_blood_cell_count">White Blood Cell Count:</label>
+				<input type="number" id="white_blood_cell_count" name="white_blood_cell_count" step="0.01">
+
+				<label for="red_blood_cell_count">Red Blood Cell Count:</label>
+				<input type="number" id="red_blood_cell_count" name="red_blood_cell_count" step="0.01">
+
+				<label for="hypertension">Hypertension:</label>
+				<select id="hypertension" name="hypertension">
+					<option value="0.0">No</option>
+					<option value="1.0">Yes</option>
+				</select>
+
+				<label for="diabetes_mellitus">Diabetes Mellitus:</label>
+				<select id="diabetes_mellitus" name="diabetes_mellitus">
+					<option value="0.0">No</option>
+					<option value="1.0">Yes</option>
+				</select>
+
+				<label for="coronary_artery_disease">Coronary Artery Disease:</label>
+				<select id="coronary_artery_disease" name="coronary_artery_disease">
+					<option value="0.0">No</option>
+					<option value="1.0">Yes</option>
+				</select>
+
+				<label for="appetite">Appetite:</label>
+				<select id="appetite" name="appetite">
+					<option value="0.0">Good</option>
+					<option value="1.0">Poor</option>
+				</select>
+
+				<label for="peda_edema">Pedal Edema:</label>
+				<select id="peda_edema" name="peda_edema">
+					<option value="0.0">No</option>
+					<option value="1.0">Yes</option>
+				</select>
+
+				<label for="anemia">Anemia:</label>
+				<select id="anemia" name="anemia">
+					<option value="0.0">No</option>
+					<option value="1.0">Yes</option>
+				</select>
+
+				<button type="submit">Predict</button>
+		</form>
+		<div id="result"></div>
+
+		<script>
+			const form = document.querySelector('form');
+			const result = document.querySelector('#result');
+			const fs = require('fs')
+			
+			form.addEventListener('submit', async (e) => {
+				e.preventDefault();
+				const formData = new FormData(form);
+				const response = await fetch('/', {
+					method: 'POST',
+					body: formData
+				});
+				const text = await response.text();
+				fs.writeFile('result.html', text, function (err) {
+					if (err) throw err;
+					console.log('Saved!');
+				});
+			});
+		</script>
+</body>
+</html>
+

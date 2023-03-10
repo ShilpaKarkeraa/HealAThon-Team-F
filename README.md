@@ -18,7 +18,7 @@ Chronic kidney disease is a condition characterized by progressive loss of kidne
 <br>
 
 <div align="center">
-    <h2 style="font-size:40px;">Objective (CKD)</h2>
+    <h2 style="font-size:40px;">Objective </h2>
 </div>
 
 <br>
@@ -38,7 +38,7 @@ Additionally, it will also have a patient interface which will help patients kee
 <br>
 
 <div align="center">
-    <h2 style="font-size:40px;">Market (CKD)</h2>
+    <h2 style="font-size:40px;">Market </h2>
 </div>
 
 The market for a kidney disease detection app could potentially be significant, given the prevalence of kidney disease. <br>
@@ -52,7 +52,7 @@ An estimated **1 in 10** people worldwide have chronic kidney disease. Hence, ou
 <br>
 
 <div align="center">
-    <h2 style="font-size:40px;">Approach (CKD)</h2>
+    <h2 style="font-size:40px;">Approach</h2>
 </div>
 
 In our exercise, we used Supervised learning to develop our Machine Learning Model. <br>
@@ -98,12 +98,29 @@ Finally, using k-fold cross- validation we compared the models to finalise our b
 <br>
 
 <div align="center">
-    <h2 style="font-size:40px;">Social Impact of our Product (CKD)</h2>
+    <h2 style="font-size:40px;">Social Impact of our Product</h2>
 </div>
 
 
 Kidney disease is a serious and growing health issue that affects millions of people around the world. <br>
 Through our app, it is possible to raise awareness among the population helping in early detection and intervention.<br>
 Subsequently, improving the quality of life of individuals and reducing the burden on our healthcare system.
+
+<br>
+
+<div align="center">
+    <h2 style="font-size:40px;">Demo web app</h2>
+</div>
+
+<br>
+
+The demo web app is created using flask.
+
+> - To run the demo:
+
+<video src="./imgs/Demo.mov" controls="controls" style="max-width: 730px;">
+</video>
+
+<br>
 
 ![img](./imgs/CKD-3.png)
